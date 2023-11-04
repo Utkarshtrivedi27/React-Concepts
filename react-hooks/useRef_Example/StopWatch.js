@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import './styles.css';
 
 function Stopwatch() {
     const [start_time, set_start_time] = useState(null);
@@ -50,16 +51,16 @@ function Stopwatch() {
     }
 
     return (
-        <div>
-            <h1>
-                Time passed: {seconds_passed.toFixed(3)}
+        <div className= "ab">
+            <h1 className='ab-1'>
+                Time passed: {seconds_passed.toFixed(3)} s
             </h1>
 
-            <button onClick={handle_start}>
+            <button onClick={handle_start} className='btn'>
                 {is_running ? 'Stop' : 'Start'}
             </button>
 
-            <button onClick={handle_reset}>
+            <button onClick={handle_reset} className='btn'>
                 Reset
             </button>
         </div>
