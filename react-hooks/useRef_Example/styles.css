@@ -1,0 +1,27 @@
+#root{
+    background-color: rgb(18, 19, 19);
+    height: 97.5vh;
+}
+
+.ab{
+    text-align: center;
+    padding-top: 10rem;
+}
+.ab-1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+.btn{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    transform: scale(1.7);
+    width: 4.5rem;
+    background-color: rgb(77, 223, 41);
+    border: 0.05rem solid rgb(77,223,41);
+    border-radius: 2rem;
+}
+
+.btn:hover{
+    background-color: white;
+}
